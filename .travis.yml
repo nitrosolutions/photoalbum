@@ -7,6 +7,9 @@ branches:
   only:
     - master
     - develop
+before_install:
+  - chmod=+x ./scrips/dotnet-build.sh
+  - chmod=+x ./scrips/dotnet-restore.sh
 before_script:
   - chmod a+x ./travis-build.sh
   - chmod a+x ./after-success.sh
