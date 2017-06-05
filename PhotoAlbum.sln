@@ -16,8 +16,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TravisCI", "TravisCI", "{37
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{F944CD58-D544-43CF-8891-D0E34E721C7A}"
 	ProjectSection(SolutionItems) = preProject
-		scripts\dotnet-build.sh.txt = scripts\dotnet-build.sh.txt
-		scripts\dotnet-restore.sh.txt = scripts\dotnet-restore.sh.txt
+		scripts\dotnet-build.sh = scripts\dotnet-build.sh
+		scripts\dotnet-restore.sh = scripts\dotnet-restore.sh
 	EndProjectSection
 EndProject
 Global
