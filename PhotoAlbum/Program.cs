@@ -16,6 +16,7 @@ namespace PhotoAlbum
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseStartup<Startup>()
                 .UseApplicationInsights()
+				.UseUrls("http://*:5020")
                 .Build();
 
             host.Run();
