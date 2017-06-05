@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  photoalbum:
+    image: photoalbum
+    build:
+      context: ./PhotoAlbum
+      dockerfile: Dockerfile
